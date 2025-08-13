@@ -1,0 +1,67 @@
+*{
+border: 0;
+box-sizing: border-box;
+
+
+}
+.form{
+	/* border: solid 2px #ff0000; */
+	display: flex;
+	gap: 80px;
+}
+
+.form .img{
+	margin-left: -10px;
+	margin-top: -10px;
+	/* border: solid 2px red; */
+}
+.form .img img{
+	width: 750px;
+	height: 650px;
+}
+
+.form .text .h{
+	display: flex;
+	align-items: center;
+	/* border: solid 2px red; */
+}
+
+.form .text .h-logo{
+	margin-bottom: 40px;
+	
+}
+.text form input{
+	width: 430px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	border: solid 0.5px #dad9da;
+	height: 50px;
+}
+form input::placeholder{
+	text-align: center;
+}
+
+form button {
+	background-color: blue;
+	width: 430px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	border: solid 0.5px #dad9da;
+	height: 40px;
+	color: white;
+}
+form p{
+	margin-left: 150px;
+}
+
+.text .h img{
+	width: 55px;
+	height: 35px;
+	
+}
+.form .text form{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 420px;
+}
